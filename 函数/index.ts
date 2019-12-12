@@ -22,7 +22,7 @@ type Message = {
     id: number;
     type: MessageType;
     content: string;
-  };
+};
 
 // # 函数重载
 function f1(x: number, y: number): number;
