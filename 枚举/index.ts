@@ -13,8 +13,10 @@ enum res {
 }
 
 // # 使用枚举的属性来访问枚举成员（或枚举的名字）
-function respond(rec:string, message:res):void { }
-respond('1', res.No)
+function respond(rec:string, message: res):void { 
+
+}
+respond('1', 1)
 
 // # 字符串枚举
 enum stringDirc  {
